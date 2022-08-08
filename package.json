@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@googlemaps/markerclusterer": "^2.0.10",
+    "bootstrap": "^5.2.0"
+  }
+}

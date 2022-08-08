@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB-ER</title>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCp2if3KaV2v9AF5tTMjZrJnMHn-9oeHY&callback=initMap">
+        </script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <!--
+        xs = cellphones  320px
+        sm = smartphones 480px
+        md = tablets     968px
+        lg = desktop     1378px >
+
+        bg - background
+        text - foreground
+
+        me = margin-right 
+        ms = margin-left.
+        mb = margin-bottom
+        mt = margin-top
+    -->
+    <!--
+        Where property is one of:
+
+            m - for classes that set margin
+            p - for classes that set padding
+            
+        Where sides is one of:
+
+            t - for classes that set margin-top or padding-top
+            b - for classes that set margin-bottom or padding-bottom
+            l - for classes that set margin-left or padding-left
+            r - for classes that set margin-right or padding-right
+            x - for classes that set both *-left and *-right
+            y - for classes that set both *-top and *-bottom
+            blank - for classes that set a margin or padding on all 4 sides of the element
+        
+        Where size is one of:
+
+            0 - for classes that eliminate the margin or padding by setting it to 0
+            1 - (by default) for classes that set the margin or padding to $spacer * .25
+            2 - (by default) for classes that set the margin or padding to $spacer * .5
+            3 - (by default) for classes that set the margin or padding to $spacer
+            4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+            5 - (by default) for classes that set the margin or padding to $spacer * 3
+            auto - for classes that set the margin to auto
+    -->
+    <header class="bg-dark text-white p-4 sticky-top">
+        <div class="container">
+            <nav class="d-flex flex-wrap align-items-center justify-content-center">
+                <a href="index.html"
+                    class="fw-bold text-decoration-none align-items-center text-white me-lg-auto">HUB-ER</a>
+                <ul class="nav col-12 col-lg-auto mb-2 mb-md-0 justify-content-center justify-content-lg-end">
+                    <li class="px-2 nav-link text-white">Aceca de Nosotros</li>
+                    <li class="px-2 nav-link text-white">Contacto</li>
+                    <li class="px-2 nav-link text-white">Vacantes</li>
+                    <li class="px-2 nav-link text-white">Foro</li>
+                    <li class="px-2 nav-link text-white">Servicios en Linea</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--
+
+    The Bootstrap 5 grid system has six classes:
+
+        .col- (extra small devices - screen width less than 576px)
+        .col-sm- (small devices - screen width equal to or greater than 576px)
+        .col-md- (medium devices - screen width equal to or greater than 768px)
+        .col-lg- (large devices - screen width equal to or greater than 992px)
+        .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+        .col-xxl- (xxlarge devices - screen width equal to or greater than 1400px)
+    -->
+
+    <article class="container mt-5">
+        <div class="row">
+            <section class="p-2 text-center col-lg-3">Ciudad</section>
+            <section class="p-2 text-center col-lg-3">Entrega</section>
+            <section class="p-2 text-center col-lg-3">Interurbanos</section>
+            <section class="p-2 text-center col-lg-3">Flete</section>
+        </div>
+    </article>
+
+    <main class="container-fluid text-white p-5 bg-success">
+        <div class="row">
+            <div class="col-lg-6 p-5">
+                <h2>Toma la libertad en tus propias manos</h2>
+                <p>
+                    Damos a la gente una de las cosas más importantes de la vida: la libertad. Cada día, nuestros
+                    usuarios toman sus propias decisiones y cierran acuerdos con condiciones basadas en la transparencia
+                    y la honestidad, sin intermediarios.
+                </p>
+                <div class="btn">
+                    Decargar
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container-fluid pt-4">
+        <div class="row ">
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">646+</p>
+                <p class="text-center">Ciudades 45 paises</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">1B</p>
+                <p class="text-center">Viajes</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">100M</p>
+                <p class="text-center">Usuarios</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row  mt-5 mb-5">
+            <h2 class="col-lg-12 text text-center">¿Por qué debes elegirnos?</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Ofrece tu tarifa</h3>
+                <p class="text-center">
+                    En inDriver eres tú quien decide cuánto pagar por el viaje. Especifica una tarifa
+                    justa para tu ruta, recibe ofertas de los conductores y ¡empieza a ahorrar en los viajes!
+                </p>
+            </div>
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Libertad de elección</h3>
+                <p class="text-center">
+                    Seleccione las mejores ofertas de los conductores en cuanto a precio, marca del vehículo y hora de
+                    llegada. Sienta la verdadera libertad de tomar sus propias decisiones.
+                </p>
+            </div>
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Sabe quién será su conductor</h3>
+                <p class="text-center">
+                    inDriver siempre mostrará la calificación de cada conductor que respondió y el número de viajes que
+                    completó. Usted es quien escoge al conductor para su próximo viaje. Comparta la información de su
+                    viaje y la ubicación actual directamente en la aplicación.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <br>
+    <div id="map"></div>
+</body>
+<script src="scripts/gmaps.js"></script>
+
+</html>
