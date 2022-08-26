@@ -13,7 +13,7 @@ const a3 = document.createElement("a");
 const a5 = document.createElement("a");
 
 const logoText =  document.createTextNode("HUB-ER");
-const navItem1 =  document.createTextNode("Aceca de Nosotros");
+const navItem1 =  document.createTextNode("Acerca de Nosotros");
 const navItem2 =  document.createTextNode("Contacto");
 const navItem3 =  document.createTextNode("Vacantes");
 const navItem5 =  document.createTextNode("Servicios en Linea");
