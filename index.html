@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB-ER</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <!--
+        
+        Recordamos que los rangos que define Bootstrap son:
+        Pantallas extra pequeñas (xs móviles) < 576px
+        Pantallas pequeñas (_sm, tablets _en vertical) ≥ 576px
+        Pantallas medianas (md, para tablets en horizontal)  ≥ 768px
+        Pantallas grandes (lg, tamaño escritorio) ≥ 992px
+        Pantallas extra grandes (xl, escritorio grande) ≥ 1200px
+
+        bg - background
+        text - foreground
+
+        me = margin-right 
+        ms = margin-left.
+        mb = margin-bottom
+        mt = margin-top
+    -->
+    <!--
+        Where property is one of:
+
+            m - for classes that set margin
+            p - for classes that set padding
+            
+        Where sides is one of:
+
+            t - for classes that set margin-top or padding-top
+            b - for classes that set margin-bottom or padding-bottom
+            l - for classes that set margin-left or padding-left
+            r - for classes that set margin-right or padding-right
+            x - for classes that set both *-left and *-right
+            y - for classes that set both *-top and *-bottom
+            blank - for classes that set a margin or padding on all 4 sides of the element
+        
+        Where size is one of:
+
+            0 - for classes that eliminate the margin or padding by setting it to 0
+            1 - (by default) for classes that set the margin or padding to $spacer * .25
+            2 - (by default) for classes that set the margin or padding to $spacer * .5
+            3 - (by default) for classes that set the margin or padding to $spacer
+            4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+            5 - (by default) for classes that set the margin or padding to $spacer * 3
+            auto - for classes that set the margin to auto
+    -->
+    <!--
+    The Bootstrap 5 grid system has six classes:
+
+        .col- (extra small devices - screen width less than 576px)
+        .col-sm- (small devices - screen width equal to or greater than 576px)
+        .col-md- (medium devices - screen width equal to or greater than 768px)
+        .col-lg- (large devices - screen width equal to or greater than 992px)
+        .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+        .col-xxl- (xxlarge devices - screen width equal to or greater than 1400px)
+    -->
+
+    
+
+    <article class="container mt-5">
+        <div class="row">
+            <section class="p-2 text-center col-lg-3">Ciudad</section>
+            <section class="p-2 text-center col-lg-3">Entrega</section>
+            <section class="p-2 text-center col-lg-3">Interurbanos</section>
+            <section class="p-2 text-center col-lg-3">Flete</section>
+        </div>
+    </article>
+
+    <main class="container-fluid text-white p-5 bg-success">
+        <div class="row">
+            <div class="col-lg-6 p-5">
+                <h2>Toma la libertad en tus propias manos</h2>
+                <p>
+                    Damos a la gente una de las cosas más importantes de la vida: la libertad. Cada día, nuestros usuarios toman sus propias decisiones y cierran acuerdos con condiciones basadas en la transparencia y la honestidad, sin intermediarios.
+                </p>
+                <div class="btn">
+                    Decargar
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container-fluid pt-4">
+        <div class="row ">
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">646+</p>
+                <p class="text-center">Ciudades 45 paises</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">1B</p>
+                <p class="text-center">Viajes</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold text-center display-5">100M</p>
+                <p class="text-center">Usuarios</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row  mt-5 mb-5">
+            <h2 class="col-lg-12 text text-center  fw-bold">¿Por qué debes elegirnos?</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Ofrece tu tarifa</h3>
+                <p class="text-center">
+                    En HUB-ER eres tú quien decide cuánto pagar por el viaje. Especifica una tarifa justa para tu ruta, recibe ofertas de los conductores y ¡empieza a ahorrar en los viajes!
+                </p>
+            </div>
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Libertad de elección</h3>
+                <p class="text-center">
+                    Seleccione las mejores ofertas de los conductores en cuanto a precio, marca del vehículo y hora de llegada. Sienta la verdadera libertad de tomar sus propias decisiones.
+                </p>
+            </div>
+            <div class="col-lg-4 p-5 pt-0">
+                <h3 class="text-center fw-bold">Sabe quién será su conductor</h3>
+                <p class="text-center">
+                    HUB-ER siempre mostrará la calificación de cada conductor que respondió y el número de viajes que completó. Usted es quien escoge al conductor para su próximo viaje. Comparta la información de su viaje y la ubicación actual directamente en la aplicación.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>¿Cómo funciona?</h2>
+
+                <blockquote>
+                    <h4>Ofrezca su precio</h4>
+                    <p>
+                        Especifique la ruta y el precio justo que está dispuesto a pagar.
+                    </p>
+                </blockquote>
+
+                <blockquote>
+                    <h4>Sugiere tu propio precio</h4>
+                    <p>
+                        Vea todas las ofertas que recibió y seleccione la que más le convenga en cuanto a precio, marca del vehículo, hora de llegada y evaluación del conductor.
+                    </p>
+                </blockquote>
+
+                <blockquote>
+                    <h4>Ahorre en los viajes</h4>
+                    <p>
+                        ¡Con HUB-ER puede reservar los viajes de forma más barata! Olvídese de las tarifas obligatorias y las manipulaciones de alta demanda.
+                    </p>
+                </blockquote>
+
+                <blockquote>
+                    <h4>Tiempo promedio de llegada del vehículo: 5 minutos</h4>
+                    <p>
+                        Tiempo promedio de llegada del vehículo: 5 minutos
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row  mt-5 mb-5">
+            <h2 class="col-lg-12 text text-center fw-bold">Por qué los conductores eligen inDriver</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 p-3 pt-0">
+                <h3 class="text-center fw-bold">Sugiere tu propio precio</h3>
+                <p class="text-center">
+                    Nuestros pagos por el servicio siempre son más bajos que los de nuestros competidores, en promedio solo 9.5%
+                </p>
+            </div>
+            <div class="col-lg-3 p-3 pt-0">
+                <h3 class="text-center fw-bold">Solo solicitudes rentables</h3>
+                <p class="text-center">
+                    HUB-ER siempre muestra el precio total del viaje y el punto final del mismo. ¿No le gustó el precio del pasajero? ¡Ofrezca su precio directamente en la aplicación!
+                </p>
+            </div>
+            <div class="col-lg-3 p-3 pt-0">
+                <h3 class="text-center fw-bold">Sin intermediarios</h3>
+                <p class="text-center">
+                    El pasajero le paga directamente al finalizar el viaje. Ya no tiene que esperar el pago.
+                </p>
+            </div>
+            <div class="col-lg-3 p-3 pt-0">
+                <h3 class="text-center fw-bold">Registro sencillo</h3>
+                <p class="text-center">
+                    Completa un sencillo registro en línea y en un plazo de 24 horas obtendrás acceso a las solicitudes de viaje con las que empezarás a ganar dinero.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white p-5 pb-2">
+        <h2>&copy HUB-ER</h2>
+        <p>
+            El agregador en línea para el transporte de pasajeros de inDriver no es un servicio de taxi y no está involucrado en las interacciones con los usuarios. Los usuarios crean, envían y realizan todas las solicitudes de forma independiente.
+        </p>
+    </footer>
+</body>
+<script src="scripts/header_creator.js"></script>
+
+</html>
