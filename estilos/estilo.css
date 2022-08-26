@@ -1,0 +1,33 @@
+
+#banner {
+    display:flex;
+    justify-content:center;
+    background-image:url('https://previews.123rf.com/images/kantver/kantver1706/kantver170600173/80529511-trabajo-en-equipo-joven-equipo-de-businessmans-haciendo-gran-discusi%C3%B3n-de-negocios-en-la-oficina-de-.jpg');
+    background-position:center;
+    background-size:cover;
+    height:600px;
+}   
+
+#banner1 {
+    display:flex;
+    justify-content:center;
+    background-image:url('https://previews.123rf.com/images/phokin/phokin1611/phokin161100317/69559831-los-hombres-de-negocios-la-falta-de-definici%C3%B3n-en-el-top-workplace-table-y-blur-oficina-de-backgroun.jpg');
+    background-position:center;
+    background-size:cover;
+    height:600px;
+} 
+
+
+#banner2 {
+    display:flex;
+    justify-content:center;
+    background-image:url(../imagenes/Entrepreneur-in-Your-Spare-Time.webp);
+    background-position:center;
+    background-size:cover;
+    height:400px;
+}   
+
+#map {
+    height: 700px;
+    width: 800%px;
+}
